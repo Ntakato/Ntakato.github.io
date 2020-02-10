@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## page link
+
+[link](https://ntakato.github.io/myProfile/)
+
 ## Available Scripts
 
 In the project directory, you can run:
