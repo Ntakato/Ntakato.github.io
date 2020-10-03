@@ -62,14 +62,10 @@ export default function FullWidthTabs() {
   return (
     <div className="MainPage">
       <header className="MainPage-header">
-        <div>
-          <span className="span">NTakato</span>
-          <span className="span">
+        <div className="header">
+          <span className="title">NTakato</span>
           <a href="https://github.com/Ntakato"><img src={githubLogo} className="icon" alt="Logo" /></a>
-          </span>
-          <span className="span">
           <a href="https://twitter.com/pifaq"><img src={twitterLog} className="icon" alt="Logo" /></a>
-          </span>
         </div>
       </header>
       <AppBar position="static" color="default">

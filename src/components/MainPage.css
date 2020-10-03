@@ -33,11 +33,17 @@
   color: #09d3ac;
 }
 
-.span {
-  margin-right : 10px;
+.title {
+  margin : 10px;
 }
 
 .icon {
   width: 32px;
   height: 32px;
+  padding: 5px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
 }
