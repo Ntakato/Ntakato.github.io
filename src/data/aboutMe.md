@@ -4,15 +4,14 @@
 
 - [Qiita](https://qiita.com/Ntakato)
 
-（2020年1月23日更新）
-
 
 # Skill
-- 言語
-    - JavaScript
-    - Python
-    - C言語
+- JavaScript（そこそこできる）
+- TypeScript（ちょっとできる）
+- Python（趣味で）
+- C言語（学生時代やってた）
+- Node.js（そこそこできる）
+- React（ちょっとできる）
+- AWS
 
-- フレームワーク
-    - node.js
-    - React
+（2020年10月04日更新）
