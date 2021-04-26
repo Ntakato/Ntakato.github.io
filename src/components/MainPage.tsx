@@ -90,7 +90,7 @@ export default function FullWidthTabs() {
         onChangeIndex={handleChangeIndex}
       >
         <TabPanel value={value} index={0} dir={theme.direction}>
-          <ReactMarkdown className="MainPage-contents" source={aboutMe} />
+          <ReactMarkdown className="MainPage-contents" children={aboutMe} />
         </TabPanel>
         <TabPanel value={value} index={1} dir={theme.direction}>
           Comming soon
