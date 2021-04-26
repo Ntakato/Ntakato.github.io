@@ -8,7 +8,8 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import ReactMarkdown from 'react-markdown';
 import githubLogo from '../data/GitHub-Mark-Light-32px.png';
-import twitterLog from '../data/Twitter-Social-Icon-Circle-Color.png'
+import twitterLogo from '../data/Twitter-Social-Icon-Circle-Color.png'
+import qiitaLogo from '../data/qiita-favicon.png'
 
 import './MainPage.css';
 
@@ -65,7 +66,8 @@ export default function FullWidthTabs() {
         <div className="header">
           <span className="title">NTakato</span>
           <a href="https://github.com/Ntakato"><img src={githubLogo} className="icon" alt="Logo" /></a>
-          <a href="https://twitter.com/pifaq"><img src={twitterLog} className="icon" alt="Logo" /></a>
+          <a href="https://twitter.com/pifaq"><img src={twitterLogo} className="icon" alt="Logo" /></a>
+          <a href="https://qiita.com/Ntakato"><img src={qiitaLogo} className="icon" alt="Logo" /></a>
         </div>
       </header>
       <AppBar position="static" color="default">
