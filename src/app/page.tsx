@@ -8,8 +8,8 @@ const Home = () => {
   return (
     <div className="MainPage">
       <header className="MainPage-header text-left bg-gray-800 h-16 flex flex-col items-left justify-center text-white">
-        <div className="header flex h-16 items-end">
-          <span className="title my-10">NTakato</span>
+        <div className="header flex h-16 items-center justify-start ml-10">
+          <span className="title bold text-xl">NTakato</span>
           <a href="https://github.com/Ntakato">
             <img src='/GitHub-Mark-Light-32px.png' className="icon w-16 h-16 p-5" alt="Logo" />
           </a>
@@ -22,7 +22,7 @@ const Home = () => {
         </div>
       </header>
 
-      <div className="Body mx-10">
+      <div className="Body mx-20">
         <ReactMarkdown className="markdown" remarkPlugins={[remarkGfm]}>{markdownContent}</ReactMarkdown>
       </div>
     </div>
