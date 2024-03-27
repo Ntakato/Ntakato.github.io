@@ -74,9 +74,7 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build and Static HTML export with Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} next build
-      - name: Static HTML export with Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} next export
+        run: rm -f next.config.js && ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: test
         run: ls
       - name: Upload artifact
