@@ -26,6 +26,7 @@
 # 資格
 - 基本情報技術者
 - 応用情報技術者
+- AWS Certified Cloud Practitioner
 - AWS Certified Solutions Architect - Associate
 
 # 職務経歴詳細
